@@ -1,13 +1,10 @@
 {
-  "name": "@esm-bundle/antd",
-  "version": "0.0.0-unpublished.0",
-  "description": "ESM and SystemJS bundles for antd",
+  "name": "esm-antd-4-16-1-react-and-dom-17-0-1",
+  "version": "1.0.0",
+  "description": "ESM bundle for antd-4-16-1-react-and-dom-17-0-1",
   "type": "module",
   "main": "esm/index.js",
   "module": "esm/index.js",
-  "exports": {
-    ".": "./esm/antd.min.js"
-  },
   "scripts": {
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
